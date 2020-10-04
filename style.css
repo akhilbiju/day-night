@@ -25,6 +25,8 @@ body {
   }
 }
 
+/** Create separate layer for each group of objects **/
+
 .container>div {
   position: absolute;
   display: flex;
