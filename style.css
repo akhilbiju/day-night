@@ -14,12 +14,10 @@ body {
 }
 
 @keyframes daynight {
-  0%,
-  10% {
+  0%, 10% {
     background: #81bcef;
   }
-  50%,
-  75% {
+  50%, 75% {
     background: #04073d;
   }
   100% {
@@ -27,7 +25,7 @@ body {
   }
 }
 
-.container > div {
+.container>div {
   position: absolute;
   display: flex;
   overflow: hidden;
@@ -50,8 +48,7 @@ body {
   position: relative;
   margin-top: 50px;
   z-index: 2;
-  animation: cloud-move 25s linear infinite,
-    cloud-reflect 10s linear alternate infinite;
+  animation: cloud-move 25s linear infinite, cloud-reflect 10s linear alternate infinite;
 }
 
 .cloud::before {
@@ -79,13 +76,11 @@ body {
 }
 
 .clouds .top {
-  animation: cloud-move 40s linear infinite,
-    cloud-reflect 10s linear alternate infinite;
+  animation: cloud-move 40s linear infinite, cloud-reflect 10s linear alternate infinite;
 }
 
 .clouds .bottom {
-  animation: cloud-move 70s linear infinite,
-    cloud-reflect 10s linear alternate infinite;
+  animation: cloud-move 70s linear infinite, cloud-reflect 10s linear alternate infinite;
 }
 
 @keyframes cloud-reflect {
@@ -116,12 +111,11 @@ body {
   z-index: 3;
 }
 
-.mountains > .center {
+.mountains>.center {
   margin: 0px auto;
 }
 
-.mountains > .left,
-.mountains > .right {
+.mountains>.left, .mountains>.right {
   z-index: 1;
   border-left: 100px solid transparent;
   border-right: 100px solid transparent;
@@ -143,13 +137,11 @@ body {
 }
 
 @keyframes sundown {
-  0%,
-  25% {
-    top: 50px;
+  0%, 25% {
+    transform: translateY(50px);
   }
-  75%,
-  100% {
-    top: 110vh;
+  75%, 100% {
+    transform: translateY(110vh);
   }
 }
 
@@ -168,12 +160,10 @@ body {
 }
 
 @keyframes moondown {
-  0%,
-  25% {
-    top: 110vh;
+  0%, 25% {
+    transform: translateY(110vh);
   }
-  75%,
-  100% {
-    top: 50px;
+  75%, 100% {
+    transform: translateY(50px);
   }
 }
