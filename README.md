@@ -4,7 +4,7 @@ A Day &amp; Night landscape using pure CSS
 
 **Performace**
 
-The animation has **_0_** paint events. All the animations are run using the GPU.
+The animation has **_0_** paint events. All the animations run using the GPU.
 
 ![Performace](performance.PNG 'Performace')
 
