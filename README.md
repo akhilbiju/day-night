@@ -6,7 +6,7 @@ A Day &amp; Night landscape using pure CSS
 
 The animation has **_0_** paint events. All the animations run using the GPU.
 
-![Performace](performance.PNG 'Performace')
+![Performace](performance.PNG 'Performance')
 
 **App Link & Status**
 
